@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-01T22:29:19 IST" name="Default suite" finished-at="2026-08-01T22:30:07 IST" duration-ms="48410">
+  <suite started-at="2026-08-01T23:35:47 IST" name="Default suite" finished-at="2026-08-01T23:36:27 IST" duration-ms="39462">
     <groups>
     </groups>
-    <test started-at="2026-08-01T22:29:19 IST" name="Default test" finished-at="2026-08-01T22:30:07 IST" duration-ms="48410">
-      <class name="TestCases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@5b12b668]" started-at="2026-08-01T22:29:19 IST" name="setup" finished-at="2026-08-01T22:29:59 IST" duration-ms="40568" status="PASS">
+    <test started-at="2026-08-01T23:35:47 IST" name="Default test" finished-at="2026-08-01T23:36:27 IST" duration-ms="39462">
+      <class name="TestCases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.HomePageTest@6025e1b6]" started-at="2026-08-01T23:35:47 IST" name="setup" finished-at="2026-08-01T23:36:26 IST" duration-ms="38892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:TestCases.LoginTest@5b12b668]" started-at="2026-08-01T22:29:59 IST" name="verifyValidLogin" finished-at="2026-08-01T22:30:06 IST" duration-ms="6992" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:TestCases.HomePageTest@6025e1b6]" started-at="2026-08-01T23:36:26 IST" name="verifyHomePageTitle" finished-at="2026-08-01T23:36:26 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest@5b12b668]" started-at="2026-08-01T22:30:06 IST" name="teardown" finished-at="2026-08-01T22:30:07 IST" duration-ms="760" status="PASS">
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.HomePageTest@6025e1b6]" started-at="2026-08-01T23:36:26 IST" name="teardown" finished-at="2026-08-01T23:36:27 IST" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCases.LoginTest -->
+      </class> <!-- TestCases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
