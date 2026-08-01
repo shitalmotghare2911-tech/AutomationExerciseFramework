@@ -6,9 +6,9 @@
 
         <classes>
 
-            <class name="testcases.LoginTest"/>
+            <class name="TestCases.LoginTest"/>
 
-            <class name="testcases.HomePageTest"/>
+            <class name="TestCases.HomePageTest"/>
 
         </classes>
 
