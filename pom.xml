@@ -19,7 +19,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>7.11.0</version>
-        <scope>test</scope>
+        
     </dependency>
         <!-- WebDriverManager -->
         <dependency>
@@ -60,6 +60,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
             <artifactId>extentreports</artifactId>
             <version>5.1.2</version>
         </dependency>
+        
 
     </dependencies>
 
