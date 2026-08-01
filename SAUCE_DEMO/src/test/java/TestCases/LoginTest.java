@@ -12,7 +12,7 @@ public class LoginTest extends BaseClass
 	{
 		LoginPage login = new LoginPage(driver);
 	    login.ClickSignUp();
-	    login.EnterEmail(");
+	    login.EnterEmail("shital@gmail.com");
 	    login.EnterPassword("password@123");
 	    login.ClickLoginBtn();
 	}
