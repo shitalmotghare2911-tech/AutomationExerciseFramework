@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass 
 {
-	WebDriver driver;
+	protected WebDriver driver;
 	
 	@BeforeMethod
 	public void setup()

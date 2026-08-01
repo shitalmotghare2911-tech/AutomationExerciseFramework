@@ -16,7 +16,7 @@ public class LoginPage
 	By Email = By.xpath("//input[@data-qa=\"login-email\"]");
 	By password = By.xpath("//input[@data-qa=\"login-password\"]");
 	
-	By Login = By.xpath("//input[@data-qa=\"login-button\"]");
+	By Login = By.xpath("//button[@data-qa=\"login-button\"]");
 	
 	//Methods
 	
@@ -25,14 +25,14 @@ public class LoginPage
 		driver.findElement(signup).click();
 	}
 	
-	public void EnterEmail()
+	public void EnterEmail(String userName)
 	{
-		driver.findElement(Email).sendKeys("shital@gmail.com");
+		driver.findElement(Email).sendKeys(userName);
 	}
 	
-	public void EnterPassword()
+	public void EnterPassword(String userPass)
 	{
-		driver.findElement(password).sendKeys("Pass@123");
+		driver.findElement(password).sendKeys(userPass);
 	}
 	public void ClickLoginBtn()
 	{
