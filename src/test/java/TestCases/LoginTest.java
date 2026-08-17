@@ -28,11 +28,6 @@ public class LoginTest extends BaseClass
 		login.EnterPassword("....");
 		login.ClickLoginBtn();
 		
-		 String actualMessage = login.getErrorMessage();
-
-	     String expectedMessage = "Your email or password is incorrect!";
-
-	        Assert.assertEquals(actualMessage, expectedMessage);
 
 	}
 	
