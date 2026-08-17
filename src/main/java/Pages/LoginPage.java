@@ -12,11 +12,12 @@ public class LoginPage
 	}
 	
 	//Locators
-	By signup = By.xpath(" //a[@href=\"/login\"]");
+	By signup = By.xpath("//a[@href=\"/login\"]");
 	By Email = By.xpath("//input[@data-qa=\"login-email\"]");
 	By password = By.xpath("//input[@data-qa=\"login-password\"]");
 	
 	By Login = By.xpath("//button[@data-qa=\"login-button\"]");
+	By loginError = By.xpath("//p[contains(text(),'Your email or password is incorrect!')]");
 	
 	//Methods
 	
@@ -40,9 +41,13 @@ public class LoginPage
 	}
 
 	public String getErrorMessage() {
+		return driver.findElement(loginError).getText();
 		// TODO Auto-generated method stub
-		return null;
+		
 	}
+
+	
+	
 	
 
 	
