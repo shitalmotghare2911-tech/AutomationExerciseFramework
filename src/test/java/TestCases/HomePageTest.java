@@ -14,7 +14,7 @@ public class HomePageTest extends BaseClass
 		HomePage homePage = new HomePage(driver);
 
 		String title = homePage.getPageTitle();
-		Assert.assertTrue(title.contains("Automationki Exercise"),
+		Assert.assertTrue(title.contains("Automation Exercise"),
 		"Home page title is incorrect");
 	}
 
