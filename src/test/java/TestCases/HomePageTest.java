@@ -4,16 +4,18 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Base.BaseClass;
+import Pages.HomePage;
 
 public class HomePageTest extends BaseClass
 {
 	@Test
 	public void verifyHomePageTitle()
 	{
-		String actualTitle = driver.getTitle();
-		String expectedTitle = "Automation Exercise";
-		Assert.assertEquals(actualTitle, expectedTitle);
-		System.out.println("\"Home Page Verified Successfully\"");
+		HomePage homePage = new HomePage(driver);
+
+		String title = homePage.getPageTitle();
+		Assert.assertTrue(title.contains("Automationki Exercise"),
+		"Home page title is incorrect");
 	}
 
 }
